@@ -3,8 +3,9 @@ void main() {
   int idade = 14;
   double altura = 1.69;
   bool resultado = 10 < 5;
-  print(meuNome);
-  print(idade);
-  print(altura);
-  print(resultado);
+  if (idade >= 18) {
+    print('voce e maior de idade');
+  } else {
+    print('voce e menor de idade');
+  }
 }
